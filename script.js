@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const weddingDate = new Date(2026, 4, 29, 11, 0, 0).getTime();
 
   const timerInterval = setInterval(() => {
-    const now = new Date();
+    const now = new Date().getTime();
     const distance = weddingDate - now;
 
     if (distance > 0) {
