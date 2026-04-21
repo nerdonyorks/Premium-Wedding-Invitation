@@ -96,7 +96,7 @@ document.addEventListener('DOMContentLoaded', () => {
      COUNTDOWN TIMER
      =============================== */
 
-  const weddingDate = new Date("2026-04-29T11:00:00").getTime();
+  const weddingDate = new Date(2026, 4, 29, 11, 0, 0).getTime();
 
   const timerInterval = setInterval(() => {
     const now = Date.now();
